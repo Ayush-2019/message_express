@@ -9,7 +9,9 @@ import { useNavigate } from 'react-router-dom';
 const Chat = () => {
     const socket = useMemo(() => io("http://localhost:3001"), []);
     const [message, setMessage] = useState("");
+    const [contacts, setContacts] = useState([]);
     const history = useNavigate();
+    const [user, setUser] = useState({});
   
     const [roomc, setRoomc] = useState("");
     const [to, setTo] = useState("");
@@ -27,9 +29,12 @@ const Chat = () => {
     useEffect(() => {
       socket.on("connect", async() => {
   
+
         setId(socket.id);
 
         const current_user = JSON.parse(localStorage.getItem('user'));
+        setUser(current_user);
+        console.log("state user " + JSON.stringify(user));
 
         current_user.socket_id = localStorage.getItem('user')?socket.id:null;
         delete current_user['email'];
@@ -58,7 +63,12 @@ const Chat = () => {
           history('/');
           toast.error('Error updating socket id');
         });
-      })
+
+        const allUsers = await axios.get('http://localhost:3001/v10/user/all')
+        .then((response) => {
+            setContacts(response.data);
+            console.log(response.data);
+        })
   
       socket.on("welcome", (s) => {
         console.log(s)
@@ -75,7 +85,7 @@ const Chat = () => {
       }
       
   
-    }, [])
+    }, [])})
     return (
       
       <div className="App">
@@ -86,14 +96,15 @@ const Chat = () => {
 
                 <div className='row'>
                     <div className='col-md-3 border border-dark'>
-                        <div className='row'>Name1</div>
-                        <div className='row'>Name1</div>
-                        <div className='row'>Name1</div>
-                        <div className='row'>Name1</div>
-                        <div className='row'>Name1</div>
+                        {
+                          contacts.map((contact) => (
+                            <div className='row'>{contact.firstName + contact.lastName}</div>
+                        ))
+                        }
+
                     </div>
                     <div className='col-md-9 border border-dark'>
-                        <div className='title'>Name 1</div>
+                        <div className='title'>{user.firstName + ' ' +user.lastName}</div>
                         <div className="messages">
                             
                         </div>

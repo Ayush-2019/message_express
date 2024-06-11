@@ -1,0 +1,397 @@
+App running at 3001
+App running at 3001
+App running at 3001
+App running at 3001
+App running at 3001
+User connected
+id:  w5dYtGjl642qTVubAAAB
+App running at 3001
+App running at 3001
+User connected
+id:  o80Bid-ZeJiwzTaxAAAD
+User connected
+id:  L3zLwMwBy18NQCr5AAAE
+User connected
+id:  jjB64SDSxs-bFhECAAAF
+App running at 3001
+App running at 3001
+User connected
+id:  cxusUIRrYhvK8IYSAAAC
+User connected
+id:  0-s_0VZ2b5vyv5hHAAAD
+App running at 3001
+User connected
+id:  a0_7bcaugjpgj4gvAAAC
+User connected
+id:  iL-b2LO7GUTxv31VAAAD
+App running at 3001
+User connected
+id:  3TkrJlNnpBkeCR0OAAAC
+User connected
+id:  EHuv_wKp_MjahYdlAAAD
+App running at 3001
+App running at 3001
+User connected
+id:  C2C-vG2p1iFII_gAAAAC
+User connected
+id:  5LNM5NxtgzAMzPVZAAAD
+App running at 3001
+User connected
+id:  bLCxJZEFgCKqif7CAAAB
+App running at 3001
+User connected
+id:  Eb-_hNcbvYGPZbupAAAC
+User connected
+id:  7MoNA4LeQ-rAEm48AAAD
+App running at 3001
+User connected
+id:  8moCn_qINPy56YvTAAAC
+User connected
+id:  xXDiaXfQz4mzzKFCAAAD
+App running at 3001
+User connected
+id:  ICtB88y6SWR4FD21AAAC
+User connected
+id:  I2PEGUbLfW9EcML3AAAD
+App running at 3001
+User connected
+id:  -cFKwSv2ecO2Eo-bAAAC
+User connected
+id:  HN9Bvw60kRJw_VzBAAAD
+App running at 3001
+User connected
+id:  0kywysgkNU4K7A3KAAAC
+User connected
+id:  vZD4PxgBQ3_R4X-sAAAD
+App running at 3001
+App running at 3001
+SyntaxError: Unexpected token { in JSON at position 210
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: Unexpected number in JSON at position 210
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Aayush\Documents\Programming Files\PERSONAL_PROJECTS\message_express\server\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+{"timestamp":"2024-06-09T21:15:24.839Z","level":"info","message":"User registered successfully"}
+App running at 3001
+{"timestamp":"2024-06-09T21:28:19.812Z","level":"warn","message":"Email not verified"}
+App running at 3001
+{"timestamp":"2024-06-09T21:30:38.159Z","level":"info","message":"User details fetched successfully"}
+App running at 3001
+{"timestamp":"2024-06-09T21:59:57.066Z","level":"info","message":"User details fetched successfully"}
+{"timestamp":"2024-06-09T22:06:18.593Z","level":"info","message":"User details fetched successfully"}
+{"timestamp":"2024-06-09T22:13:01.294Z","level":"fatal","message":"Invalid Credentials"}
+{"timestamp":"2024-06-09T22:14:32.550Z","level":"info","message":"User registered successfully"}
+{"timestamp":"2024-06-09T22:14:44.932Z","level":"info","message":"User details fetched successfully"}
+{"timestamp":"2024-06-09T22:15:25.259Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  tVdfKaMK7-wQp5qHAAAB
+User disconnected tVdfKaMK7-wQp5qHAAAB
+{"timestamp":"2024-06-09T22:19:12.534Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  4udjFRrLQjtItMcuAAAD
+User disconnected 4udjFRrLQjtItMcuAAAD
+{"timestamp":"2024-06-09T22:19:22.434Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  gimjrwUP-yp4uwH-AAAF
+User disconnected gimjrwUP-yp4uwH-AAAF
+{"timestamp":"2024-06-09T22:19:53.057Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  T2xbvVKr08LGEYXOAAAH
+User disconnected T2xbvVKr08LGEYXOAAAH
+{"timestamp":"2024-06-09T22:22:17.164Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  h8hiMGJIKANyy0fZAAAJ
+User disconnected h8hiMGJIKANyy0fZAAAJ
+{"timestamp":"2024-06-09T22:22:21.942Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  9BX1vZNd_dNhJ08NAAAL
+User disconnected 9BX1vZNd_dNhJ08NAAAL
+{"timestamp":"2024-06-09T22:23:02.217Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  kE4K29QnK9Ocg4K_AAAN
+User disconnected kE4K29QnK9Ocg4K_AAAN
+{"timestamp":"2024-06-09T22:23:24.484Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  bOUl2Wotf9yb5kxJAAAP
+User disconnected bOUl2Wotf9yb5kxJAAAP
+{"timestamp":"2024-06-09T22:23:47.596Z","level":"fatal","message":"Invalid Credentials"}
+{"timestamp":"2024-06-09T22:25:23.587Z","level":"fatal","message":"Invalid Credentials"}
+{"timestamp":"2024-06-09T22:26:18.197Z","level":"fatal","message":"Invalid Credentials"}
+{"timestamp":"2024-06-09T22:28:43.424Z","level":"fatal","message":"Invalid Credentials"}
+{"timestamp":"2024-06-09T22:29:42.808Z","level":"fatal","message":"Invalid Credentials"}
+{"timestamp":"2024-06-09T22:29:57.844Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  BdeZlBRrdjAK1eFaAAAR
+User disconnected BdeZlBRrdjAK1eFaAAAR
+{"timestamp":"2024-06-09T22:30:25.153Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  FXbd0gOMxHqMC-YrAAAT
+User disconnected FXbd0gOMxHqMC-YrAAAT
+{"timestamp":"2024-06-09T22:30:30.119Z","level":"fatal","message":"Invalid Credentials"}
+{"timestamp":"2024-06-09T22:30:37.076Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  t2zer085gR3JXnkWAAAV
+User disconnected t2zer085gR3JXnkWAAAV
+{"timestamp":"2024-06-09T22:31:01.759Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  WJaneSZ2yzZ9-8uRAAAX
+User disconnected WJaneSZ2yzZ9-8uRAAAX
+User connected
+id:  AwH2hL8cPVlELjg2AAAZ
+User disconnected AwH2hL8cPVlELjg2AAAZ
+User connected
+id:  sJPlEu5vvRyJW21lAAAb
+User disconnected sJPlEu5vvRyJW21lAAAb
+{"timestamp":"2024-06-09T22:39:41.678Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  Mm0b74w-FdOOX6ZLAAAd
+User disconnected Mm0b74w-FdOOX6ZLAAAd
+{"timestamp":"2024-06-09T22:40:06.003Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  EsqDvMCWla6KkGG1AAAf
+User disconnected EsqDvMCWla6KkGG1AAAf
+User connected
+id:  fIq4JkxBIPDLM_hfAAAh
+User disconnected fIq4JkxBIPDLM_hfAAAh
+{"timestamp":"2024-06-09T22:41:09.448Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  zqkH0E9RLoYV3HZkAAAj
+User disconnected zqkH0E9RLoYV3HZkAAAj
+User connected
+id:  2lOOr2t_jlQW4StaAAAl
+User disconnected 2lOOr2t_jlQW4StaAAAl
+User connected
+id:  sPI2SITKEMEgsucHAAAn
+User disconnected sPI2SITKEMEgsucHAAAn
+User connected
+id:  d2DCY7-ZK6X-uZSuAAAp
+User disconnected d2DCY7-ZK6X-uZSuAAAp
+User connected
+id:  L4QAQJelCoyJ9XRPAAAr
+User disconnected L4QAQJelCoyJ9XRPAAAr
+User connected
+id:  CrzhUvOsdfdmty6wAAAt
+App running at 3001
+User connected
+id:  NJqxS7T1AEn2Gz-HAAAB
+App running at 3001
+User connected
+id:  RXponFclWoh9He7CAAAB
+App running at 3001
+User connected
+id:  R3WtMQ3hEdIz9KlEAAAB
+App running at 3001
+User connected
+id:  -SGy_WVS31lOqp0yAAAB
+App running at 3001
+User connected
+id:  yqIsyhiuZRrUI0GBAAAB
+App running at 3001
+User connected
+id:  J6lIqrpU1CcKxWKSAAAB
+User disconnected J6lIqrpU1CcKxWKSAAAB
+User connected
+id:  hxH334eGxqK2r1a0AAAD
+App running at 3001
+{"timestamp":"2024-06-11T12:21:00.737Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  F5ca18wmRx3Gy6TeAAAB
+User disconnected F5ca18wmRx3Gy6TeAAAB
+User connected
+id:  LHUOeci13ox1g-hPAAAD
+User disconnected LHUOeci13ox1g-hPAAAD
+User connected
+id:  ayMDVHkMaKIKg9HxAAAF
+User disconnected ayMDVHkMaKIKg9HxAAAF
+User connected
+id:  F_w4P2BaQ39keUkxAAAH
+User disconnected F_w4P2BaQ39keUkxAAAH
+{"timestamp":"2024-06-11T12:46:56.030Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  EW_L-9if9nHNf5nxAAAJ
+User disconnected EW_L-9if9nHNf5nxAAAJ
+User connected
+id:  iiFsEkG7ti5gr_KzAAAL
+{"timestamp":"2024-06-11T12:53:32.155Z","level":"error","message":"Not Authenticated"}
+User disconnected iiFsEkG7ti5gr_KzAAAL
+User connected
+id:  ZMR2OjOq2Tgzo0SMAAAN
+{"timestamp":"2024-06-11T12:53:37.107Z","level":"error","message":"Not Authenticated"}
+User disconnected ZMR2OjOq2Tgzo0SMAAAN
+User connected
+id:  x4DtYY4TDw0TXsNtAAAP
+{"timestamp":"2024-06-11T12:54:08.762Z","level":"error","message":"Not Authenticated"}
+{"timestamp":"2024-06-11T13:00:52.323Z","level":"fatal","message":"Email not required"}
+{"timestamp":"2024-06-11T13:01:14.826Z","level":"warn","message":"Email not verified"}
+App running at 3001
+User connected
+id:  n9Pm01yyvCughgl-AAAB
+{"timestamp":"2024-06-11T13:02:37.247Z","level":"error","message":"Not Authenticated"}
+{"timestamp":"2024-06-11T13:02:42.250Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-11T13:04:38.653Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-11T13:04:42.803Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-11T13:04:49.751Z","level":"error","message":"Not Authenticated"}
+{"timestamp":"2024-06-11T13:04:54.356Z","level":"info","message":"User updated successfully"}
+User disconnected n9Pm01yyvCughgl-AAAB
+User connected
+id:  jcI_xzbZIINSKa3CAAAD
+{"timestamp":"2024-06-11T13:07:18.733Z","level":"error","message":"Not Authenticated"}
+User disconnected jcI_xzbZIINSKa3CAAAD
+User connected
+id:  ycIUn9Z1PLCry7J1AAAF
+{"timestamp":"2024-06-11T13:09:16.175Z","level":"error","message":"Not Authenticated"}
+User disconnected ycIUn9Z1PLCry7J1AAAF
+User connected
+id:  e5Pd5y7TvtXFWNRoAAAH
+{"timestamp":"2024-06-11T13:09:26.718Z","level":"error","message":"Not Authenticated"}
+User disconnected e5Pd5y7TvtXFWNRoAAAH
+User connected
+id:  ueca7-MaPS2An2qUAAAJ
+{"timestamp":"2024-06-11T13:09:54.946Z","level":"error","message":"Not Authenticated"}
+User disconnected ueca7-MaPS2An2qUAAAJ
+User connected
+id:  I2jRBdBaSxr6yP8XAAAL
+{"timestamp":"2024-06-11T13:13:22.214Z","level":"fatal","message":"Email not required"}
+User disconnected I2jRBdBaSxr6yP8XAAAL
+User connected
+id:  tb7h3weduMEJECeZAAAN
+{"timestamp":"2024-06-11T13:13:56.146Z","level":"error","message":"Not Authenticated"}
+User disconnected tb7h3weduMEJECeZAAAN
+User connected
+id:  UJ2UJMiD3ClcIvHOAAAP
+{"timestamp":"2024-06-11T13:14:08.192Z","level":"error","message":"Not Authenticated"}
+User disconnected UJ2UJMiD3ClcIvHOAAAP
+User connected
+id:  rQmUHDkqT16Q_Q3YAAAR
+{"timestamp":"2024-06-11T13:14:16.468Z","level":"error","message":"Not Authenticated"}
+User disconnected rQmUHDkqT16Q_Q3YAAAR
+User connected
+id:  GFLq_SCOFdwX3aMsAAAT
+{"timestamp":"2024-06-11T13:14:32.138Z","level":"error","message":"Not Authenticated"}
+User disconnected GFLq_SCOFdwX3aMsAAAT
+User connected
+id:  Nkqbbp5MlPM9bQOuAAAV
+{"timestamp":"2024-06-11T13:15:25.387Z","level":"error","message":"Not Authenticated"}
+User disconnected Nkqbbp5MlPM9bQOuAAAV
+User connected
+id:  t7z8BE3hoIVlrFsFAAAX
+{"timestamp":"2024-06-11T13:16:58.595Z","level":"error","message":"Not Authenticated"}
+User disconnected t7z8BE3hoIVlrFsFAAAX
+User connected
+id:  O2aAwn4To8yePu7HAAAZ
+User disconnected O2aAwn4To8yePu7HAAAZ
+User connected
+id:  vgoZIEQAGHL7j_LrAAAb
+App running at 3001
+{"timestamp":"2024-06-11T14:13:21.097Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  TyHaTu13rwtl3m7lAAAB
+{"timestamp":"2024-06-11T14:13:21.383Z","level":"fatal","message":"Email not required"}
+User disconnected TyHaTu13rwtl3m7lAAAB
+{"timestamp":"2024-06-11T14:14:01.327Z","level":"fatal","message":"Email not required"}
+{"timestamp":"2024-06-11T14:15:29.611Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  vECouVYu7N2Lw9eYAAAD
+{"timestamp":"2024-06-11T14:15:29.718Z","level":"fatal","message":"Auto generated fields must not be manipulated"}
+User disconnected vECouVYu7N2Lw9eYAAAD
+{"timestamp":"2024-06-11T14:16:47.048Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  bQczhPT6A2UM4QZ-AAAF
+{"timestamp":"2024-06-11T14:16:47.282Z","level":"fatal","message":"Auto generated fields must not be manipulated"}
+User disconnected bQczhPT6A2UM4QZ-AAAF
+{"timestamp":"2024-06-11T14:18:02.388Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  azw7mZQahsb_o8YbAAAH
+{"timestamp":"2024-06-11T14:18:02.609Z","level":"fatal","message":"Auto generated fields must not be manipulated"}
+User disconnected azw7mZQahsb_o8YbAAAH
+{"timestamp":"2024-06-11T14:19:14.536Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  GYhGESoMSfwFBTzmAAAJ
+{"timestamp":"2024-06-11T14:19:15.083Z","level":"info","message":"User updated successfully"}
+User disconnected GYhGESoMSfwFBTzmAAAJ
+User connected
+id:  mEy6ScZUfjkHXy4vAAAL
+App running at 3001
+User connected
+id:  KR8OblRmp56FzuBsAAAB
+User disconnected KR8OblRmp56FzuBsAAAB
+User connected
+id:  S3VcwbqvoitI9lqQAAAD
+User disconnected S3VcwbqvoitI9lqQAAAD
+{"timestamp":"2024-06-11T14:22:24.696Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  c7EH7A5-sOWZYi8RAAAF
+{"timestamp":"2024-06-11T14:22:24.937Z","level":"info","message":"User updated successfully"}
+App running at 3001
+User connected
+id:  MWzl_x5TVTS82qehAAAB
+User disconnected MWzl_x5TVTS82qehAAAB
+User connected
+id:  K9y7wVhiVIHC7YshAAAD
+User disconnected K9y7wVhiVIHC7YshAAAD
+{"timestamp":"2024-06-11T14:23:28.873Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  G9_3qsdkaryDo4VkAAAF
+{"timestamp":"2024-06-11T14:23:29.119Z","level":"info","message":"User updated successfully"}
+User disconnected G9_3qsdkaryDo4VkAAAF
+User connected
+id:  Tr4LYAkVebRNclZcAAAH
+{"timestamp":"2024-06-11T14:23:45.348Z","level":"info","message":"User updated successfully"}
+User disconnected Tr4LYAkVebRNclZcAAAH
+User connected
+id:  4HDI5hpEOiE_ALiiAAAJ
+{"timestamp":"2024-06-11T14:23:50.692Z","level":"fatal","message":"Invalid Credentials"}
+User disconnected 4HDI5hpEOiE_ALiiAAAJ
+App running at 3001
+{"timestamp":"2024-06-11T14:25:17.545Z","level":"fatal","message":"Invalid Credentials"}
+App running at 3001
+App running at 3001
+{"timestamp":"2024-06-11T16:12:25.167Z","level":"info","message":"User registered successfully"}
+{"timestamp":"2024-06-11T16:12:49.797Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  mbld77za0CmDnNtIAAAB
+{"timestamp":"2024-06-11T16:12:50.044Z","level":"info","message":"User updated successfully"}
+User disconnected mbld77za0CmDnNtIAAAB
+User connected
+id:  ZmwCoRx5Gk4sBLzTAAAD
+{"timestamp":"2024-06-11T16:13:19.081Z","level":"info","message":"User updated successfully"}
+User disconnected ZmwCoRx5Gk4sBLzTAAAD
+User connected
+id:  Zibi9xrJ2ZGA6weqAAAF
+{"timestamp":"2024-06-11T16:13:28.811Z","level":"info","message":"User updated successfully"}
+User disconnected Zibi9xrJ2ZGA6weqAAAF
+User connected
+id:  6ArhRxMQPcUhvy2jAAAH
+{"timestamp":"2024-06-11T16:13:38.214Z","level":"info","message":"User updated successfully"}
+User disconnected 6ArhRxMQPcUhvy2jAAAH
+User connected
+id:  swJ6zyA0xke5_L-6AAAJ
+{"timestamp":"2024-06-11T16:13:48.457Z","level":"info","message":"User updated successfully"}
+User disconnected swJ6zyA0xke5_L-6AAAJ
+User connected
+id:  gx0cIrSKp-n8_dtkAAAL
+{"timestamp":"2024-06-11T16:16:31.247Z","level":"info","message":"User updated successfully"}
+User disconnected gx0cIrSKp-n8_dtkAAAL
+User connected
+id:  w_RC_BQPcfYVh0FeAAAN
+{"timestamp":"2024-06-11T16:16:53.045Z","level":"info","message":"User updated successfully"}
+User disconnected w_RC_BQPcfYVh0FeAAAN
+User connected
+id:  It6FM7sX1WcktqbRAAAP
+{"timestamp":"2024-06-11T16:21:17.923Z","level":"info","message":"User updated successfully"}

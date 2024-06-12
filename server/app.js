@@ -61,7 +61,12 @@ io.on("connection", (socket) => {
         toArray.push(entry);
         toUser.messages['m'] = JSON.stringify(toArray);
 
-        io.to(to).emit("receive", message);
+        User.update(fromUser, {where: {id: fromUser.id}});
+        User.update(toUser, {where: {id: toUser.id}});
+
+        const to = toUser.socket_id;
+
+        io.to(to).emit("receive", );
         
     })
 

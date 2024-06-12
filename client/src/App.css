@@ -39,6 +39,44 @@
 
 .czone {
   min-height: 50vh;
-  background-color: rgb(32, 47, 32);
+  max-height: 70vh;
+  background: linear-gradient(#33ccff 0%, #ff99cc);
   margin: 1% 1% 1% 1%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  scrollbar-width: 0%;
+}
+
+.czone::-webkit-scrollbar {
+  display: none;
+}
+
+.mleft{
+  float: left;
+  clear: both;
+  background-color: seagreen;
+  max-width: 40%;
+  max-height: 30%;
+  margin: 1% 1% 1% 1%;
+  text-align: left;
+  padding: 1% 1% 1% 1%;
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 7%;
+  position: relative;
+}
+
+.mright{
+  float: right;
+  clear: both;
+  background-color: rgb(57, 55, 57);
+  max-width: 40%;
+  max-height: 30%;
+  margin: 1% 1% 1% 1%;
+  text-align: left;
+  padding: 0.4% 0.4% 0.4% 0.4%;
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 5%;
+  position: relative;
 }

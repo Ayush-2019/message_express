@@ -500,3 +500,11 @@ id:  -xpoHsLEPvkTG_gIAAA_
 User connected
 id:  r2o0GV9nwD9ECGs-AABB
 {"timestamp":"2024-06-11T17:43:28.298Z","level":"info","message":"User updated successfully"}
+App running at 3001
+{"timestamp":"2024-06-12T11:57:47.357Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  6mD1xMvBmQNlSa_5AAAB
+{"timestamp":"2024-06-12T11:57:48.328Z","level":"info","message":"User updated successfully"}
+User connected
+id:  bELRikCrzQS38tYBAAAD
+{"timestamp":"2024-06-12T12:04:21.092Z","level":"info","message":"User updated successfully"}

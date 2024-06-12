@@ -5,6 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import ChatZone from './ChatZone';
 
 const Chat = () => {
     const socket = useMemo(() => io("http://localhost:3001"), []);
@@ -106,7 +107,7 @@ const Chat = () => {
                     <div className='col-md-9 border border-dark'>
                         <div className='title'>{user.firstName + ' ' +user.lastName}</div>
                         <div className="messages">
-                            
+                            <ChatZone/>
                         </div>
                         <div></div>
                     </div>

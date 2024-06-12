@@ -1,7 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Button } from 'react-bootstrap';
 
-const ChatZone = () => {
+const ChatZone = ({contact, socket}) => {
+
+    const [text, setText] = useState('')
+
+    const sendMessage = (e) => {
+
+        e.preventDefault();
+        const receiver = contact.id;
+        const sender = JSON.parse(localStorage.getItem('user')).id;
+
+        const parties = {
+            send: sender,
+            receive: receiver,
+            time: new Date()
+        }
+        socket.emit("message", {text, parties});
+    }
     return (
         <>
         
@@ -19,7 +35,8 @@ const ChatZone = () => {
 
         <div>
 
-            <textarea className='form-control' placeholder='Type a message' style={{width:'50%', display:'inline'}}></textarea> <Button style={{display:'inline', marginBottom:'2%', marginLeft:'2%'}}>Send</Button>
+            <textarea className='form-control' placeholder='Type a message' style={{width:'50%', display:'inline'}} onChange={(e) => setText(e.target.value)}></textarea> 
+            <Button style={{display:'inline', marginBottom:'2%', marginLeft:'2%'}} onClick={sendMessage}>Send</Button>
             
         </div>
 

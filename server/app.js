@@ -32,10 +32,6 @@ const io = new Server(server, {
     }
 });
 
-app.get('/', (req, res) => {
-    res.send('Hello World');
-});
-
 io.on("connection", (socket) => {
     console.log("User connected");
     console.log("id: ", socket.id);
@@ -45,8 +41,26 @@ io.on("connection", (socket) => {
         console.log("User disconnected", socket.id);
     });
 
-    socket.on("message", ({message, to}) => {
-        // console.log(data);
+    socket.on("message", ({message, parties}) => {
+        
+        const fromUser = User.findOne({where: {id: parties.send}});
+        const toUser = User.findOne({where: {id: parties.receive}});
+
+        const entry = {
+            from: fromUser.id,
+            to: toUser.id,
+            message: message,
+            time: parties.time
+        }
+
+        fromArray = JSON.parse(fromUser.messages).m;
+        fromArray.push(entry);
+        fromUser.messages['m'] = JSON.stringify(fromArray);
+
+        toArray = JSON.parse(toUser.messages).m;
+        toArray.push(entry);
+        toUser.messages['m'] = JSON.stringify(toArray);
+
         io.to(to).emit("receive", message);
         
     })

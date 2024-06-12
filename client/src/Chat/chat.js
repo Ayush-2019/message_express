@@ -13,6 +13,7 @@ const Chat = () => {
     const [contacts, setContacts] = useState([]);
     const history = useNavigate();
     const [user, setUser] = useState({});
+    const [currContact, setCurrContact] = useState({});
   
     const [roomc, setRoomc] = useState("");
     const [to, setTo] = useState("");
@@ -25,6 +26,13 @@ const Chat = () => {
   
       socket.emit("message", {message, to});
       // setMessage("");
+    }
+
+    const updateChatZone = (contact) => {
+
+      setCurrContact(contact);
+
+
     }
   
     useEffect(() => {
@@ -96,10 +104,10 @@ const Chat = () => {
             <div className='container border border-dark mt-5'>
 
                 <div className='row'>
-                    <div className='col-md-3 border border-dark'>
+                    <div className='col-md-3 border border-dark clist'>
                         {
                           contacts.map((contact) => (
-                            <div className='row'>{contact.firstName + contact.lastName}</div>
+                            <div className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + contact.lastName}</div>
                         ))
                         }
 
@@ -107,7 +115,7 @@ const Chat = () => {
                     <div className='col-md-9 border border-dark'>
                         <div className='title'>{user.firstName + ' ' +user.lastName}</div>
                         <div className="messages">
-                            <ChatZone/>
+                            <ChatZone contact = {currContact} socket = {socket}/>
                         </div>
                         <div></div>
                     </div>

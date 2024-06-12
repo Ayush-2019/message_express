@@ -80,3 +80,19 @@
   border-radius: 5%;
   position: relative;
 }
+
+.contact{
+  background: linear-gradient(to left, rgb(5, 1, 82), rgb(6, 25, 120));
+  color: whitesmoke;
+  padding: 1% 1% 1% 1%;
+  border: 0.5px solid black;
+  min-height: 7%;
+}
+
+.contact:hover{
+  cursor: pointer;
+}
+
+.clist{
+  overflow: auto;
+}

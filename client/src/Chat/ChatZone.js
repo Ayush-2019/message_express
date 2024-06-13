@@ -14,13 +14,15 @@ const ChatZone = ({contact, socket}) => {
         const parties = {
             send: sender,
             receive: receiver,
+            message: text, 
             time: new Date()
         }
-        socket.emit("message", {text, parties});
+        console.log(parties);
+        socket.emit("message", parties);
     }
     return (
         <>
-        
+        <div>{contact.firstName}</div>
         <div className='czone' style={{display:'block'}}>
             
            <div className="mright">text</div><br/>
@@ -33,7 +35,7 @@ const ChatZone = ({contact, socket}) => {
 
         </div>
 
-        <div>
+        <div className='sendarea'>
 
             <textarea className='form-control' placeholder='Type a message' style={{width:'50%', display:'inline'}} onChange={(e) => setText(e.target.value)}></textarea> 
             <Button style={{display:'inline', marginBottom:'2%', marginLeft:'2%'}} onClick={sendMessage}>Send</Button>

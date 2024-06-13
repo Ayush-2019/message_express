@@ -782,3 +782,520 @@ User connected
 id:  pCAv4mu3yDcI0VgXAAAO
 User connected
 id:  suWX1JZyh_MP1h_PAAAP
+App running at 3001
+{"timestamp":"2024-06-13T13:08:34.798Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  MLFn-YMPQQH9670iAAAB
+{"timestamp":"2024-06-13T13:08:35.869Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:12:09.025Z","level":"info","message":"User registered successfully"}
+{"timestamp":"2024-06-13T13:12:27.671Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  6-v9HXBsZ0PA8nt5AAAD
+{"timestamp":"2024-06-13T13:12:27.750Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:14:48.528Z","level":"info","message":"User updated successfully"}
+User disconnected 6-v9HXBsZ0PA8nt5AAAD
+User connected
+id:  7lUrPBy2jJiHQg50AAAF
+{"timestamp":"2024-06-13T13:14:56.616Z","level":"info","message":"User updated successfully"}
+User disconnected MLFn-YMPQQH9670iAAAB
+User connected
+id:  CK-kJm301N7T4FNBAAAH
+{"timestamp":"2024-06-13T13:15:18.275Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:15:40.836Z","level":"info","message":"User details fetched successfully"}
+{"timestamp":"2024-06-13T13:17:58.940Z","level":"info","message":"User details fetched successfully"}
+{"timestamp":"2024-06-13T13:18:20.536Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:18:26.440Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:18:39.334Z","level":"info","message":"User details fetched successfully"}
+{"timestamp":"2024-06-13T13:18:43.198Z","level":"info","message":"User details fetched successfully"}
+{"timestamp":"2024-06-13T13:18:49.278Z","level":"info","message":"User details fetched successfully"}
+{"timestamp":"2024-06-13T13:18:50.884Z","level":"info","message":"User details fetched successfully"}
+User disconnected CK-kJm301N7T4FNBAAAH
+User connected
+id:  Zmrs08cV8-G02lhTAAAJ
+{"timestamp":"2024-06-13T13:18:58.185Z","level":"info","message":"User updated successfully"}
+User disconnected 7lUrPBy2jJiHQg50AAAF
+User connected
+id:  bhAAmqwXg2uU6gJqAAAL
+{"timestamp":"2024-06-13T13:19:06.390Z","level":"info","message":"User updated successfully"}
+User disconnected bhAAmqwXg2uU6gJqAAAL
+User connected
+id:  lovWHBuYwxTlbt0NAAAN
+{"timestamp":"2024-06-13T13:19:16.442Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:19:27.040Z","level":"info","message":"User details fetched successfully"}
+User disconnected Zmrs08cV8-G02lhTAAAJ
+User connected
+id:  cBNII6xfyrSKR7VWAAAP
+{"timestamp":"2024-06-13T13:19:41.452Z","level":"info","message":"User updated successfully"}
+User disconnected cBNII6xfyrSKR7VWAAAP
+User disconnected lovWHBuYwxTlbt0NAAAN
+{"timestamp":"2024-06-13T13:22:26.577Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  6BPL3tre-F-53aApAAAR
+{"timestamp":"2024-06-13T13:22:26.697Z","level":"info","message":"User updated successfully"}
+User disconnected 6BPL3tre-F-53aApAAAR
+{"timestamp":"2024-06-13T13:22:48.140Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  fYp-5a-pLFZ_OVQdAAAT
+{"timestamp":"2024-06-13T13:22:49.677Z","level":"info","message":"User updated successfully"}
+User disconnected fYp-5a-pLFZ_OVQdAAAT
+{"timestamp":"2024-06-13T13:23:24.118Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:23:29.880Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  cujALq712KxVVBpkAAAV
+{"timestamp":"2024-06-13T13:23:30.073Z","level":"info","message":"User updated successfully"}
+User disconnected cujALq712KxVVBpkAAAV
+User connected
+id:  OdGdaAplfZdKeXlrAAAX
+{"timestamp":"2024-06-13T13:23:35.722Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:23:56.499Z","level":"fatal","message":"Invalid Credentials"}
+{"timestamp":"2024-06-13T13:24:21.511Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  8_f9EYDMMmVohREzAAAZ
+{"timestamp":"2024-06-13T13:24:22.982Z","level":"info","message":"User updated successfully"}
+User disconnected 8_f9EYDMMmVohREzAAAZ
+User connected
+id:  oudU-ImyGDdWZhXcAAAb
+{"timestamp":"2024-06-13T13:24:38.149Z","level":"info","message":"User updated successfully"}
+App running at 3001
+User connected
+id:  jlMYiQUGI6i0Q9bTAAAB
+{"timestamp":"2024-06-13T13:26:40.598Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:26:40.617Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:26:40.618Z","level":"info","message":"User updated successfully"}
+User connected
+id:  pmgsrAlEaY6R109LAAAD
+{"timestamp":"2024-06-13T13:26:41.966Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:26:41.972Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:26:41.973Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:26:41.983Z","level":"info","message":"User updated successfully"}
+App running at 3001
+User connected
+id:  9G69Ip0_Hb7eNqPfAAAB
+{"timestamp":"2024-06-13T13:50:47.086Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.112Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.114Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.115Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.117Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.119Z","level":"info","message":"User updated successfully"}
+User connected
+id:  PLCbjSpY747WXtG8AAAD
+{"timestamp":"2024-06-13T13:50:47.577Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.578Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.584Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.586Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.588Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.590Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.692Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.714Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.716Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:50:47.717Z","level":"info","message":"User updated successfully"}
+App running at 3001
+User connected
+id:  5P7xM9Q-fJModZ0BAAAB
+User connected
+id:  F4tqFvXSfZIvyvbjAAAD
+{"timestamp":"2024-06-13T13:52:58.747Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:58.762Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:58.767Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:58.779Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:58.783Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:58.859Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.646Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.736Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.740Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.809Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.825Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.958Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.962Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.967Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.971Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.975Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.983Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:52:59.987Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:00.138Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:01.198Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:01.203Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:01.209Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:01.213Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:01.216Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:02.546Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:02.548Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:03.219Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:03.223Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:53:03.226Z","level":"info","message":"User updated successfully"}
+User connected
+id:  wmp62n43rdMIag40AAAF
+User connected
+id:  ceZ7FEJ51BG_vpX-AAAH
+{"timestamp":"2024-06-13T13:58:02.160Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T13:58:02.364Z","level":"info","message":"User updated successfully"}
+User disconnected ceZ7FEJ51BG_vpX-AAAH
+User disconnected 5P7xM9Q-fJModZ0BAAAB
+User connected
+id:  D3LJFpFinhJACkpmAAAJ
+{"timestamp":"2024-06-13T14:05:40.979Z","level":"info","message":"User updated successfully"}
+User disconnected D3LJFpFinhJACkpmAAAJ
+User connected
+id:  RSb9DLuyYhS-l24LAAAL
+{"timestamp":"2024-06-13T14:06:28.914Z","level":"info","message":"User updated successfully"}
+User disconnected RSb9DLuyYhS-l24LAAAL
+User connected
+id:  s3SJdisxbqPKNbpYAAAN
+{"timestamp":"2024-06-13T14:07:15.976Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:08:16.916Z","level":"info","message":"User details fetched successfully"}
+App running at 3001
+User connected
+id:  H9jT53q7RC0Hkj8CAAAC
+User connected
+id:  n5yZPq0fVFcK3GcJAAAD
+User connected
+id:  GYP4ExgURH4GL9OlAAAF
+{"timestamp":"2024-06-13T14:09:34.979Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.110Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.120Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.130Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.151Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.226Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.290Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.334Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.337Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.340Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.479Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.481Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.496Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.569Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.577Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.671Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.744Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.745Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.746Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.839Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.840Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.844Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.850Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.899Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:35.930Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:36.024Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:36.027Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:36.031Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:36.033Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:36.037Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:36.067Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:09:36.075Z","level":"info","message":"User updated successfully"}
+User connected
+id:  1hZG3xU3bSeRY3qpAAAH
+User connected
+id:  ENlULibJ1HTfzbCKAAAJ
+{"timestamp":"2024-06-13T14:13:25.425Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:13:25.674Z","level":"info","message":"User updated successfully"}
+User disconnected 1hZG3xU3bSeRY3qpAAAH
+User disconnected H9jT53q7RC0Hkj8CAAAC
+User disconnected n5yZPq0fVFcK3GcJAAAD
+User connected
+id:  f0pW3Wb1fhZkoBQ8AAAL
+{"timestamp":"2024-06-13T14:13:48.044Z","level":"info","message":"User updated successfully"}
+App running at 3001
+User connected
+id:  uVNY3USFo0HKVbOqAAAB
+User connected
+id:  GC0kWg30dn6AjuyVAAAD
+User connected
+id:  LsOTW1uEcenR2s8dAAAF
+{"timestamp":"2024-06-13T14:15:47.270Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.277Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.283Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.631Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.634Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.636Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.638Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.641Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.646Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.909Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.918Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.926Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.930Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.936Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:47.938Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:48.038Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:15:48.042Z","level":"info","message":"User updated successfully"}
+App running at 3001
+User connected
+id:  NsPUw6azQi-U6Z_BAAAB
+User connected
+id:  V6dhHO5FD1GuhAiSAAAD
+{"timestamp":"2024-06-13T14:16:15.060Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.063Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.065Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.068Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.073Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.076Z","level":"info","message":"User updated successfully"}
+User connected
+id:  cIE6bLA20J5_KamYAAAF
+{"timestamp":"2024-06-13T14:16:15.220Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.268Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.287Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.290Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.292Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.375Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.446Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.459Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.529Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.531Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.566Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.568Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.667Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.670Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.678Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.731Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.737Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.740Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:16:15.751Z","level":"info","message":"User updated successfully"}
+User connected
+id:  AIPgBpjKqN1kedGWAAAI
+{"timestamp":"2024-06-13T14:17:35.781Z","level":"info","message":"User updated successfully"}
+User disconnected V6dhHO5FD1GuhAiSAAAD
+User connected
+id:  AZvqVMO9Rh5hd0mpAAAJ
+{"timestamp":"2024-06-13T14:17:54.944Z","level":"info","message":"User updated successfully"}
+User connected
+id:  jgkMS1TqfAhrfDj5AAAL
+{"timestamp":"2024-06-13T14:17:58.280Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:58.289Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:58.290Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:58.292Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:58.295Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:58.676Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:58.786Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:58.789Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:58.792Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:58.795Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:59.038Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:59.067Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:59.069Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:59.070Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:17:59.072Z","level":"info","message":"User updated successfully"}
+User connected
+id:  TSBisXyjGY4dP-F1AAAO
+{"timestamp":"2024-06-13T14:19:13.419Z","level":"info","message":"User updated successfully"}
+User disconnected cIE6bLA20J5_KamYAAAF
+User disconnected NsPUw6azQi-U6Z_BAAAB
+User connected
+id:  APZT4adeex6d5HeKAAAP
+{"timestamp":"2024-06-13T14:19:33.999Z","level":"info","message":"User updated successfully"}
+User connected
+id:  H8q6DthrXomlVC9CAAAS
+User connected
+id:  h-mm5Z_0bydX_IqmAAAT
+{"timestamp":"2024-06-13T14:19:35.799Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.801Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.804Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.805Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.806Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.807Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.958Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.959Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.962Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.964Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.967Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:35.968Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:36.063Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:36.065Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:36.066Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:37.780Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:37.782Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:37.786Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:37.818Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:37.819Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:37.874Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:37.877Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:19:37.879Z","level":"info","message":"User updated successfully"}
+User disconnected TSBisXyjGY4dP-F1AAAO
+User disconnected jgkMS1TqfAhrfDj5AAAL
+User disconnected AZvqVMO9Rh5hd0mpAAAJ
+User disconnected H8q6DthrXomlVC9CAAAS
+User disconnected APZT4adeex6d5HeKAAAP
+User disconnected AIPgBpjKqN1kedGWAAAI
+User disconnected h-mm5Z_0bydX_IqmAAAT
+User connected
+id:  WGmMId4IyV_ncLLwAAAV
+User connected
+id:  81-iRj4afWkv4tuGAAAc
+User connected
+id:  iw_mIyOUZ49RJNuCAAAd
+User connected
+id:  waCRWcU10CImMGC6AAAe
+User connected
+id:  siCswYaisXNCTaL7AAAf
+{"timestamp":"2024-06-13T14:28:42.282Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.289Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.293Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.295Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.298Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.304Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.574Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.576Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.577Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.578Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.591Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.843Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.845Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.849Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.851Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.856Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.859Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.884Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.886Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:42.990Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.082Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.084Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.367Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.369Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.371Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.373Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.376Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.744Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.819Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.820Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.993Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.994Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:28:43.996Z","level":"info","message":"User updated successfully"}
+User disconnected WGmMId4IyV_ncLLwAAAV
+User disconnected 81-iRj4afWkv4tuGAAAc
+User disconnected iw_mIyOUZ49RJNuCAAAd
+User disconnected waCRWcU10CImMGC6AAAe
+User disconnected siCswYaisXNCTaL7AAAf
+{"timestamp":"2024-06-13T14:31:56.441Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.442Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.444Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.446Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.448Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.450Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.775Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.783Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.821Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.824Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.825Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.830Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.979Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.990Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.996Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:31:56.998Z","level":"info","message":"User updated successfully"}
+User connected
+id:  HC7avlTdxuvrVEfLAAAk
+User connected
+id:  WMtNyPKpWtttv-OeAAAl
+User connected
+id:  pLmkhqak7wHxUXNAAAAm
+User connected
+id:  u09F16cy6NTLqO2tAAAn
+{"timestamp":"2024-06-13T14:32:03.316Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.318Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.324Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.328Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.398Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.602Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.605Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.617Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.619Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.621Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.677Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.969Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.981Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.985Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.987Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:03.988Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.041Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.369Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.370Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.377Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.379Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.380Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.472Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.625Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.627Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.638Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.642Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.645Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.651Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.828Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.829Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.832Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.834Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.839Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.936Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.938Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:32:04.939Z","level":"info","message":"User updated successfully"}
+User disconnected u09F16cy6NTLqO2tAAAn
+User disconnected pLmkhqak7wHxUXNAAAAm
+User disconnected WMtNyPKpWtttv-OeAAAl
+User disconnected HC7avlTdxuvrVEfLAAAk
+{"timestamp":"2024-06-13T14:43:25.497Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  bVRTpk4wTkQ6kH5kAAAp
+{"timestamp":"2024-06-13T14:43:28.673Z","level":"info","message":"User updated successfully"}
+User disconnected bVRTpk4wTkQ6kH5kAAAp
+User connected
+id:  VWFTEU8jBKFe4qlSAAAr
+{"timestamp":"2024-06-13T14:43:41.119Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:44:20.818Z","level":"info","message":"User details fetched successfully"}
+User connected
+id:  ebPAiVGgtHa_lYBWAAAt
+{"timestamp":"2024-06-13T14:44:25.150Z","level":"info","message":"User updated successfully"}
+App running at 3001
+User connected
+id:  LBeLF-HS1zxQT_ZqAAAC
+User connected
+id:  c1mk7-lDiffULcWuAAAD
+{"timestamp":"2024-06-13T14:46:24.750Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:46:24.899Z","level":"info","message":"User updated successfully"}
+{
+  from: [90mundefined[39m,
+  to: [90mundefined[39m,
+  message: [90mundefined[39m,
+  time: [32m'2024-06-13T14:46:49.300Z'[39m
+}
+{
+  from: [90mundefined[39m,
+  to: [90mundefined[39m,
+  message: [90mundefined[39m,
+  time: [32m'2024-06-13T14:47:07.111Z'[39m
+}
+{
+  from: [90mundefined[39m,
+  to: [90mundefined[39m,
+  message: [90mundefined[39m,
+  time: [32m'2024-06-13T14:48:05.949Z'[39m
+}
+{
+  from: [90mundefined[39m,
+  to: [90mundefined[39m,
+  message: [90mundefined[39m,
+  time: [32m'2024-06-13T14:48:10.599Z'[39m
+}
+App running at 3001
+User connected
+id:  B8gONRCDQfliNouTAAAC
+User connected
+id:  LoFm1QtpdfyvKS5IAAAD
+{"timestamp":"2024-06-13T14:48:35.333Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:48:35.345Z","level":"info","message":"User updated successfully"}
+App running at 3001
+User connected
+id:  VayMePea1HufxZPvAAAB
+{"timestamp":"2024-06-13T14:49:00.896Z","level":"info","message":"User updated successfully"}
+User connected
+id:  4AdHa0RWbVFSbY0SAAAD
+{"timestamp":"2024-06-13T14:49:05.665Z","level":"info","message":"User updated successfully"}
+App running at 3001
+User connected
+id:  Wk2bbAh4yH1VosM_AAAC
+User connected
+id:  XGq87oVR_Q1tyzrDAAAD
+{"timestamp":"2024-06-13T14:49:39.271Z","level":"info","message":"User updated successfully"}
+{"timestamp":"2024-06-13T14:49:39.376Z","level":"info","message":"User updated successfully"}
+{
+  from: [90mundefined[39m,
+  to: [90mundefined[39m,
+  message: [90mundefined[39m,
+  time: [32m'2024-06-13T14:49:55.904Z'[39m
+}

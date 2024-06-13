@@ -41,32 +41,38 @@ io.on("connection", (socket) => {
         console.log("User disconnected", socket.id);
     });
 
-    socket.on("message", ({message, parties}) => {
+    socket.on("message", async(parties) => {
         
-        const fromUser = User.findOne({where: {id: parties.send}});
-        const toUser = User.findOne({where: {id: parties.receive}});
+        const fromUser = await User.findOne({where: {id: parties.send}});
+        const toUser = await User.findOne({where: {id: parties.receive}});
+
+        // console.log("from: ", fromUser);
 
         const entry = {
             from: fromUser.id,
             to: toUser.id,
-            message: message,
+            message: parties.message,
             time: parties.time
         }
 
-        fromArray = JSON.parse(fromUser.messages).m;
-        fromArray.push(entry);
-        fromUser.messages['m'] = JSON.stringify(fromArray);
+        // fromArray = JSON.parse(fromUser.messages).m;
+        // fromArray.push(entry);
+        // fromUser.messages['m'] = fromArray;
 
-        toArray = JSON.parse(toUser.messages).m;
-        toArray.push(entry);
-        toUser.messages['m'] = JSON.stringify(toArray);
 
-        User.update(fromUser, {where: {id: fromUser.id}});
-        User.update(toUser, {where: {id: toUser.id}});
+        // toArray = JSON.parse(toUser.messages).m;
+        // toArray.push(entry);
+        // toUser.messages['m'] = toArray;
+
+        // User.update(fromUser, {where: {id: fromUser.id}});
+        // User.update(toUser, {where: {id: toUser.id}});
 
         const to = toUser.socket_id;
+        console.log("to: ", to);
 
-        io.to(to).emit("receive", );
+        console.log(entry);
+        io.to(to).emit("receive", entry);
+        
         
     })
 

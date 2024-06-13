@@ -19,14 +19,6 @@ const Chat = () => {
     const [to, setTo] = useState("");
     const [id, setId] = useState("");
     const [messages, setMessages] = useState([]);
-  
-    const handleSubmit = (e) => {
-  
-      e.preventDefault();
-  
-      socket.emit("message", {message, to});
-      // setMessage("");
-    }
 
     const updateChatZone = (contact) => {
 
@@ -36,10 +28,13 @@ const Chat = () => {
     }
   
     useEffect(() => {
+      alert('useEffect triggered again');
       socket.on("connect", async() => {
   
 
         setId(socket.id);
+
+        console.log("socket id " + socket.id);
 
         const current_user = JSON.parse(localStorage.getItem('user'));
         setUser(current_user);
@@ -83,10 +78,8 @@ const Chat = () => {
         console.log(s)
       });
   
-      socket.on("receive", (message) => {
-        // console.log(data);
-        setMessages((messages) => [...messages, message]);
-        console.log(messages);
+      socket.on("receive", (entry) => {
+        console.log(entry);
       });
   
       return () => {
@@ -94,7 +87,7 @@ const Chat = () => {
       }
       
   
-    }, [])})
+    })},[])
     return (
       
       <div className="App">
@@ -103,8 +96,9 @@ const Chat = () => {
 
             <div className='container border border-dark mt-5'>
 
-                <div className='row'>
+                <div className='row leftPanel'>
                     <div className='col-md-3 border border-dark clist'>
+                    <div className='row contact'>dummy dummy</div><hr style={{color: 'white'}}/>
                         {
                           contacts.map((contact) => (
                             <div className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + contact.lastName}</div>
@@ -112,7 +106,7 @@ const Chat = () => {
                         }
 
                     </div>
-                    <div className='col-md-9 border border-dark'>
+                    <div className='col-md-9 border border-dark panel'>
                         <div className='title'>{user.firstName + ' ' +user.lastName}</div>
                         <div className="messages">
                             <ChatZone contact = {currContact} socket = {socket}/>

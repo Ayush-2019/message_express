@@ -195,7 +195,9 @@ const updateUser = async (req, res) => {
             lastName: req.body.lastName ? req.body.lastName: existing.lastName,
             created_at: existing.created_at,
             updated_at: new Date(),
-            email_verified: true
+            email_verified: true,
+            socket_id: req.body.socket_id ? req.body.socket_id: existing.socket_id,
+            messages: req.body.messages ? req.body.messages: existing.messages
         }
     
     

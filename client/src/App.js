@@ -6,6 +6,7 @@ import {Routes, Route, BrowserRouter} from 'react-router-dom';
 import Login from './Login/login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Chat from './Chat/chat';
+import Signup from './Login/Signup';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
 
       <Route path='/' element={<Login/>}/>
+      <Route path='/signup' element={<Signup/>}/>
       <Route path='/chats' element={<Chat/>}/>
       </Routes>
     

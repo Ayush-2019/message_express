@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, TextField, Container, Typography, Box } from '@mui/material';
 import axios from 'axios';
 import { Buffer } from 'buffer';
@@ -35,6 +35,14 @@ const Login = () => {
     });
 
   };
+
+  useEffect(() => {
+
+    if(localStorage.getItem('signup')){
+      toast.success(localStorage.getItem('signup'));
+      localStorage.removeItem('signup');
+    }
+  },[]);
 
   return (
     <div>
@@ -88,6 +96,11 @@ const Login = () => {
         </Box>
       </Box>
     </Container>
+    
+    <div></div>
+    <div style={{textAlign:"center"}}>
+      <div>New User?</div> <Button variant='contained' color='secondary' onClick={() => history('/signup')}>Register</Button>
+    </div>
     <ToastContainer
       position="bottom-right"
       autoClose={5000}

@@ -197,12 +197,12 @@ const updateUser = async (req, res) => {
             updated_at: new Date(),
             email_verified: true,
             socket_id: req.body.socket_id ? req.body.socket_id: existing.socket_id,
-            messages: req.body.messages ? req.body.messages: existing.messages
+            messages: "message"
         }
     
     
         const user = await User.update(newuser, {where: {email: emailid}});
-        // console.log(user);
+        console.log(user);
         const updated = await User.findOne({ where: { email: emailid } });
 
         const obj = {

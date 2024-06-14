@@ -28,7 +28,6 @@ const Chat = () => {
     }
   
     useEffect(() => {
-      alert('useEffect triggered again');
       socket.on("connect", async() => {
   
 
@@ -46,7 +45,7 @@ const Chat = () => {
         delete current_user['created_at'];
         delete current_user['updated_at'];
 
-        console.log(current_user);
+        // console.log(current_user);
 
         const userupdate = await axios.put('http://localhost:3001/v10/user/self', current_user, {
           headers: {
@@ -54,7 +53,7 @@ const Chat = () => {
           }
         })
         .then((response)=>{
-          console.log(response);
+          console.log("response data put: "+response);
           if(response.status === 200){
             toast.success('Welcome to Message Express '+ current_user.firstName);
             toast.success('Your Socket ID is '+ response.data.socket_id);
@@ -98,10 +97,9 @@ const Chat = () => {
 
                 <div className='row leftPanel'>
                     <div className='col-md-3 border border-dark clist'>
-                    <div className='row contact'>dummy dummy</div><hr style={{color: 'white'}}/>
                         {
                           contacts.map((contact) => (
-                            <div className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + contact.lastName}</div>
+                            <><div className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + ' ' + contact.lastName}</div></>
                         ))
                         }
 

@@ -44,8 +44,7 @@ const User = {
         allowNull: true
       },
       messages: {
-        type: Sequelize.JSON(Sequelize.ARRAY),
-        defaultValue: {m:[]},
+        type: Sequelize.STRING,
         allowNull: true
       }
 

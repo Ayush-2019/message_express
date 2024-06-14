@@ -54,10 +54,12 @@ io.on("connection", (socket) => {
             message: parties.message,
             time: parties.time
         }
-
-        // fromArray = JSON.parse(fromUser.messages).m;
-        // fromArray.push(entry);
-        // fromUser.messages['m'] = fromArray;
+        console.log(fromUser);
+        fromArray = JSON.parse(fromUser.messages)['1'];
+        console.log(fromArray);
+        fromArray.push(entry);
+        fromUser.messages['1'] = fromArray;
+        console.log(fromUser);
 
 
         // toArray = JSON.parse(toUser.messages).m;

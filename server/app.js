@@ -33,8 +33,8 @@ const io = new Server(server, {
 });
 
 io.on("connection", (socket) => {
-    console.log("User connected");
-    console.log("id: ", socket.id);
+    // console.log("User connected");
+    // console.log("id: ", socket.id);
 
 
     socket.on("disconnect", () => {
@@ -54,25 +54,37 @@ io.on("connection", (socket) => {
             message: parties.message,
             time: parties.time
         }
-        console.log(fromUser);
-        fromArray = JSON.parse(fromUser.messages)['1'];
-        console.log(fromArray);
+        // console.log(fromUser);
+
+        fromArray = JSON.parse(fromUser.messages).m;
         fromArray.push(entry);
-        fromUser.messages['1'] = fromArray;
-        console.log(fromUser);
+        const message_obj = {"m": fromArray};
+        // console.log("fromUser M PARSED: " + JSON.stringify(fromArray));
+        fromUser.messages = JSON.stringify(message_obj);
+        // console.log(JSON.stringify(fromUser));
 
 
-        // toArray = JSON.parse(toUser.messages).m;
-        // toArray.push(entry);
-        // toUser.messages['m'] = toArray;
+        toArray = JSON.parse(toUser.messages).m;
+        toArray.push(entry);
+        const message_obj2 = {"m": toArray};
+        // console.log("fromUser M PARSED: " + JSON.stringify(fromArray));
+        toUser.messages = JSON.stringify(message_obj2);
+        console.log(fromUser.id);
 
-        // User.update(fromUser, {where: {id: fromUser.id}});
-        // User.update(toUser, {where: {id: toUser.id}});
+        try{
+            const u1 = await User.update(fromUser, {where: {email: fromUser.email}});
+
+            console.log(u1);
+        }
+        catch(e){
+            console.log(e);
+        }
+        const u2 = await User.update(toUser, {where: {email: toUser.email}});
 
         const to = toUser.socket_id;
-        console.log("to: ", to);
+        // console.log("to: ", to);
 
-        console.log(entry);
+        // console.log(entry);
         io.to(to).emit("receive", entry);
         
         

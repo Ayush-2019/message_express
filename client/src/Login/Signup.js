@@ -31,25 +31,28 @@ const Signup = () => {
 
       }
   
-      const user = await axios.post('http://localhost:3001/v10/user/self', newuser).then((response) => {
+      axios.post('http://localhost:3001/v10/user/self', newuser).then((data) => {
 
-        console.log(response);
+        console.log(data);
   
-        if(response.status === 201){
+        if(data.status == 201){
           history('/');
           localStorage.setItem('signup', 'Welcome! Please Login to Continue.');
-        }
-
-        else if(response.status === 400){
-          toast.error('Email Already Exists');
-          setLoading(false);
         }
   
       })
       .catch((error) => {
         console.log(error);
-        toast.error('An Error Occured');
-        setLoading(false);
+
+        if(error.response.status == 400){
+          toast.error('Email Already Exists');
+          setLoading(false);
+        }
+        
+        else{
+          toast.error('An Error Occured');
+          setLoading(false);
+        }
       });
   
     };

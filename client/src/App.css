@@ -78,3 +78,11 @@
   background: linear-gradient(#33ccff 0%, #ff99cc);
 
 }
+
+.scrollStyling{
+
+  float: right;
+  clear: both;
+  position: relative;
+
+}

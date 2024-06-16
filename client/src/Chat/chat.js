@@ -1,4 +1,4 @@
-import React, {useState, useMemo, useEffect} from 'react';
+import React, {useState, useMemo, useEffect, useRef} from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import {io} from 'socket.io-client';
 import { ToastContainer, toast } from 'react-toastify';
@@ -19,7 +19,8 @@ const Chat = () => {
     const [to, setTo] = useState("");
     const [id, setId] = useState("");
     const [messages, setMessages] = useState([]);
-    const [trigger, setTrigger] = useState(false);
+    const [trigger, setTrigger] = useState(1);
+    const div = useRef(null);
 
     const updateChatZone = (contact) => {
 
@@ -29,10 +30,11 @@ const Chat = () => {
     }
   
     useEffect(() => {
+      setId(JSON.parse(localStorage.getItem('user')).id);
       socket.on("connect", async() => {
   
 
-        setId(socket.id);
+        // setId(socket.id);
 
         console.log("socket id " + socket.id);
 
@@ -56,8 +58,8 @@ const Chat = () => {
         .then((response)=>{
           console.log("response data put: "+response);
           if(response.status === 200){
-            toast.success('Welcome to Message Express '+ current_user.firstName);
-            toast.success('Your Socket ID is '+ response.data.socket_id);
+            // toast.success('Welcome to Message Express '+ current_user.firstName);
+            // toast.success('Your Socket ID is '+ response.data.socket_id);
             localStorage.setItem('user', JSON.stringify(response.data));
           }
         })
@@ -79,6 +81,7 @@ const Chat = () => {
       });
   
       socket.on("receive", (entry) => {
+        console.log("received");
         console.log(entry);
         const newarray = JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m'];
         newarray.push(entry);
@@ -86,7 +89,8 @@ const Chat = () => {
         user.messages = JSON.stringify({"m": newarray});
         console.log(JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m']);
         localStorage.setItem('user', JSON.stringify(user));
-        setTrigger(!trigger);
+        setTrigger(prev => prev + 1);
+        div.current?.scrollIntoView({ behavior: 'smooth' });
         
       });
   
@@ -107,9 +111,11 @@ const Chat = () => {
                 <div className='row leftPanel'>
                     <div className='col-md-3 border border-dark clist'>
                         {
-                          contacts.map((contact) => (
-                            <><div className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + ' ' + contact.lastName}</div></>
-                        ))
+                          contacts.map((contact) => {
+
+                            if(id != contact.id){
+                            return <><div className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + ' ' + contact.lastName}</div></>
+}})
                         }
 
                     </div>

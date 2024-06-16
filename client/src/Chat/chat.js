@@ -79,6 +79,13 @@ const Chat = () => {
   
       socket.on("receive", (entry) => {
         console.log(entry);
+        const newarray = JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m'];
+        newarray.push(entry);
+        const user = JSON.parse(localStorage.getItem('user'));
+        user.messages = JSON.stringify({"m": newarray});
+        console.log(JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m']);
+        localStorage.setItem('user', JSON.stringify(user));
+        
       });
   
       return () => {

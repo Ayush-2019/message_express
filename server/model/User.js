@@ -44,7 +44,7 @@ const User = {
         allowNull: true
       },
       messages: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
         allowNull: true
       }
 

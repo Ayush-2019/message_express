@@ -69,17 +69,34 @@ io.on("connection", (socket) => {
         const message_obj2 = {"m": toArray};
         // console.log("fromUser M PARSED: " + JSON.stringify(fromArray));
         toUser.messages = JSON.stringify(message_obj2);
-        console.log(fromUser.id);
+        // console.log(fromUser.id);
+        console.log(JSON.stringify(fromUser));
 
-        try{
-            const u1 = await User.update(fromUser, {where: {email: fromUser.email}});
+        const newFromUser = {
+            email: fromUser.email,
+            password: fromUser.password,
+            firstName: fromUser.firstName,
+            lastName: fromUser.lastName,
+            created_at: fromUser.created_at,
+            updated_at: new Date(),
+            email_verified: true,
+            socket_id: fromUser.socket_id,
+            messages: fromUser.messages
+        }
+        const user = await User.update(newFromUser, {where: {email: fromUser.email}});
 
-            console.log(u1);
+        const newToUser = {
+            email: toUser.email,
+            password: toUser.password,
+            firstName: toUser.firstName,
+            lastName: toUser.lastName,
+            created_at: toUser.created_at,
+            updated_at: new Date(),
+            email_verified: true,
+            socket_id: toUser.socket_id,
+            messages: toUser.messages
         }
-        catch(e){
-            console.log(e);
-        }
-        const u2 = await User.update(toUser, {where: {email: toUser.email}});
+        const user2 = await User.update(newToUser, {where: {email: toUser.email}});
 
         const to = toUser.socket_id;
         // console.log("to: ", to);

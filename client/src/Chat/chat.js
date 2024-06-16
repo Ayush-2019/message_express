@@ -6,6 +6,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import ChatZone from './ChatZone';
+import { Drawer, IconButton, List, ListItem } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Chat = () => {
     const socket = useMemo(() => io("http://localhost:3001"), []);
@@ -21,6 +23,8 @@ const Chat = () => {
     const [messages, setMessages] = useState([]);
     const [trigger, setTrigger] = useState(1);
     const div = useRef(null);
+    const receiveSound = new Audio('receive.wav');
+    const [drawerOpen, setDrawerOpen] = useState(false);
 
     const updateChatZone = (contact) => {
 
@@ -90,7 +94,8 @@ const Chat = () => {
         console.log(JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m']);
         localStorage.setItem('user', JSON.stringify(user));
         setTrigger(prev => prev + 1);
-        div.current?.scrollIntoView({ behavior: 'smooth' });
+        receiveSound.play();
+        
         
       });
   
@@ -110,19 +115,40 @@ const Chat = () => {
 
                 <div className='row leftPanel'>
                     <div className='col-md-3 border border-dark clist'>
-                        {
+                    {/* <IconButton
+            aria-label="Menu" color="inherit" onClick={()=> setDrawerOpen(true)}
+            ><MenuIcon/></IconButton>
+
+                    <Drawer anchor="right" open={drawerOpen} onClose = {() => setDrawerOpen(false)}>
+            <List component= 'nav'>
+
+            {
                           contacts.map((contact) => {
 
                             if(id != contact.id){
-                            return <><div className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + ' ' + contact.lastName}</div></>
+                            return <><ListItem className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + ' ' + contact.lastName}</ListItem></>
+}})
+                        }
+                
+            </List>
+        
+        </Drawer> */}
+
+{
+                          contacts.map((contact) => {
+
+                            if(id != contact.id){
+                            return <><ListItem className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + ' ' + contact.lastName}</ListItem></>
 }})
                         }
 
+
+
                     </div>
                     <div className='col-md-9 border border-dark panel'>
-                        <div className='title'>{user.firstName + ' ' +user.lastName}</div>
+                        {/* <div className='title'>{user.firstName + ' ' +user.lastName}</div> */}
                         <div className="messages">
-                            <ChatZone contact = {currContact} socket = {socket} trigger = {trigger}/>
+                            <ChatZone contact = {currContact} socket = {socket} trigger = {trigger} ref={div}/>
                         </div>
                         <div></div>
                     </div>

@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {forwardRef, useEffect, useRef, useState} from 'react';
 import { Button } from 'react-bootstrap';
 import WelcomeScreen from './WelcomeScreen';
 
@@ -8,13 +8,15 @@ const ChatZone = ({contact, socket, trigger}) => {
     const [messages, setMessages] = useState([]);
     const [id, setId] = useState('');
     const div = useRef(null);
+    const sound = new Audio('/ping.wav');
 
     useEffect(() => {
         console.log("trigger changed");
         setId(JSON.parse(localStorage.getItem('user')).id);
         const messageArray = JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m'];
         setMessages(messageArray);
-        console.log(messageArray)
+        console.log(messageArray);
+        div.current?.scrollIntoView({ behavior: 'smooth' });
     }, [contact, trigger]);
 
     const sendMessage = (e) => {
@@ -41,16 +43,18 @@ const ChatZone = ({contact, socket, trigger}) => {
         socket.emit("message", parties);
         setText('');
         div.current?.scrollIntoView({ behavior: 'smooth' });
+        sound.play();
     }
     return (
         <>
-        <div>{contact.firstName}</div>
+        {/* <audio id="audio" src="../resources/ping.wav" autostart="false" ref={sound}></audio> */}
+        <div style={{fontWeight:"bold"}}>{contact.firstName} {contact.lastName}</div>
         
         {
             Object.keys(contact).length == 0 ? <WelcomeScreen/> :
 
             <div>
-                {id} and {contact.id}
+                {/* {id} and {contact.id} */}
         <div className='czone' style={{display:'block'}}>
 
             <div>

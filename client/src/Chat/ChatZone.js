@@ -50,7 +50,6 @@ const ChatZone = ({contact, socket}) => {
 
             {
                 messages.map((message, index) => (
-
                     message.send == contact.id ? <div className="mright">{message.message}</div> : message.receive == id ? <div className="mleft">{message.message}</div> : null
 
 

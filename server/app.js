@@ -49,8 +49,8 @@ io.on("connection", (socket) => {
         // console.log("from: ", fromUser);
 
         const entry = {
-            from: fromUser.id,
-            to: toUser.id,
+            send: fromUser.id,
+            receive: toUser.id,
             message: parties.message,
             time: parties.time
         }

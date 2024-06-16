@@ -19,6 +19,7 @@ const Chat = () => {
     const [to, setTo] = useState("");
     const [id, setId] = useState("");
     const [messages, setMessages] = useState([]);
+    const [trigger, setTrigger] = useState(false);
 
     const updateChatZone = (contact) => {
 
@@ -85,6 +86,7 @@ const Chat = () => {
         user.messages = JSON.stringify({"m": newarray});
         console.log(JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m']);
         localStorage.setItem('user', JSON.stringify(user));
+        setTrigger(!trigger);
         
       });
   
@@ -114,7 +116,7 @@ const Chat = () => {
                     <div className='col-md-9 border border-dark panel'>
                         <div className='title'>{user.firstName + ' ' +user.lastName}</div>
                         <div className="messages">
-                            <ChatZone contact = {currContact} socket = {socket}/>
+                            <ChatZone contact = {currContact} socket = {socket} trigger = {trigger}/>
                         </div>
                         <div></div>
                     </div>

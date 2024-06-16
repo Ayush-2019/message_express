@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import { Button } from 'react-bootstrap';
 import WelcomeScreen from './WelcomeScreen';
 
-const ChatZone = ({contact, socket}) => {
+const ChatZone = ({contact, socket, trigger}) => {
 
     const [text, setText] = useState('')
     const [messages, setMessages] = useState([]);
@@ -12,7 +12,8 @@ const ChatZone = ({contact, socket}) => {
         setId(JSON.parse(localStorage.getItem('user')).id);
         const messageArray = JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m'];
         setMessages(messageArray);
-    });
+        console.log(messageArray)
+    }, [contact, trigger]);
 
     const sendMessage = (e) => {
 
@@ -45,12 +46,12 @@ const ChatZone = ({contact, socket}) => {
             Object.keys(contact).length == 0 ? <WelcomeScreen/> :
 
             <div>
-
+                {id} and {contact.id}
         <div className='czone' style={{display:'block'}}>
 
             {
                 messages.map((message, index) => (
-                    message.send == contact.id ? <div className="mright">{message.message}</div> : message.receive == id ? <div className="mleft">{message.message}</div> : null
+                    message.send == id && message.receive == contact.id ? <div className="mright">{message.message}</div> : message.send == contact.id  ? <div className="mleft">{message.message}</div> : null
 
 
                 ))

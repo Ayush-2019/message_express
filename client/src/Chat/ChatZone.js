@@ -11,11 +11,11 @@ const ChatZone = ({contact, socket, trigger}) => {
     const sound = new Audio('/ping.wav');
 
     useEffect(() => {
-        console.log("trigger changed");
+        // console.log("trigger changed");
         setId(JSON.parse(localStorage.getItem('user')).id);
         const messageArray = JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m'];
         setMessages(messageArray);
-        console.log(messageArray);
+        // console.log(messageArray);
         div.current?.scrollIntoView({ behavior: 'smooth' });
     }, [contact, trigger]);
 
@@ -31,13 +31,13 @@ const ChatZone = ({contact, socket, trigger}) => {
             message: text, 
             time: new Date()
         }
-        console.log(parties);
+        // console.log(parties);
 
         const newarray = JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m'];
         newarray.push(parties);
         const user = JSON.parse(localStorage.getItem('user'));
         user.messages = JSON.stringify({"m": newarray});
-        console.log(JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m']);
+        // console.log(JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m']);
         localStorage.setItem('user', JSON.stringify(user));
         setMessages(newarray);
         socket.emit("message", parties);
@@ -59,11 +59,19 @@ const ChatZone = ({contact, socket, trigger}) => {
 
             <div>
             {
-                messages.map((message, index) => (
-                    message.send == id && message.receive == contact.id ? <div className="mright">{message.message}</div> : message.send == contact.id  ? <div className="mleft">{message.message}</div> : null
+                messages.map((message, index) => {
+                    
+                    const time = message.time.toString();
+                    // console.log(time);
+                    const day = time.substring(8,10);
+                    const month = time.substring(5,7);
+                    const hours = time.substring(11,16);
+                    
+                    return(
+                    message.send == id && message.receive == contact.id ? <><div className="mright">{message.message}<div className='tright'>{day}/{month} {hours}</div></div></>: message.send == contact.id  ? <div className="mleft">{message.message}<div className='tleft'>{day}/{month} {hours}</div></div> : null
 
 
-                ))
+                )})
             }
             </div>
             <div ref={div} className='scrollStyling'><hr/></div>

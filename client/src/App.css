@@ -13,7 +13,7 @@
   max-height: 70vh;
   background: linear-gradient(#33ccff 0%, #ff99cc);
   margin: 1% 1% 1% 1%;
-  box-shadow: 2px 2px 2px 2px rgba(244, 239, 239, 0.2);
+  box-shadow: 4px 4px 4px 4px rgba(244, 239, 239, 0.2);
   overflow: auto;
   scrollbar-width: 0%;
   color: rgb(16, 15, 15);
@@ -53,24 +53,39 @@
   position: relative;
 }
 
+.tright{
+  font-size:x-small;
+  font-weight: normal;
+  font-style: italic;
+  text-align: right;
+}
+
+.tleft{
+  font-size:x-small;
+  font-weight: normal;
+  font-style: italic;
+  text-align: left;
+}
+
 .contact{
   color: whitesmoke;
-  padding: 0.5% 0.5% 0.5% 7%;
+  /* padding: 0.5% 0.5% 0.5% 7%; */
   /* border: 0.5px solid black; */
   min-height: 7%;
   border-bottom: 2px solid rgb(217, 212, 217);
   padding-top: 2%;
   padding-left: 5%;
+  width: 100%;
 }
 
 .contact:hover{
   cursor: pointer;
-  background-color: rgb(63, 62, 63);
+  background-color: rgb(4, 131, 4);
 }
 
 .clist{
   overflow: auto;
-  background-color: rgb(53, 51, 51);
+  background-color: rgb(1, 109, 106);
 }
 
 .panel{

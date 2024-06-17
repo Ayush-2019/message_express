@@ -29,6 +29,8 @@ const Chat = () => {
     const updateChatZone = (contact) => {
 
       setCurrContact(contact);
+      // cc.current.style.color = 'white';
+      // cc.current.style.fontWeight = 'normal';
 
 
     }
@@ -40,11 +42,11 @@ const Chat = () => {
 
         // setId(socket.id);
 
-        console.log("socket id " + socket.id);
+        // console.log("socket id " + socket.id);
 
         const current_user = JSON.parse(localStorage.getItem('user'));
         setUser(current_user);
-        console.log("state user " + JSON.stringify(user));
+        // console.log("state user " + JSON.stringify(user));
 
         current_user.socket_id = localStorage.getItem('user')?socket.id:null;
         delete current_user['email'];
@@ -60,7 +62,7 @@ const Chat = () => {
           }
         })
         .then((response)=>{
-          console.log("response data put: "+response);
+          // console.log("response data put: "+response);
           if(response.status === 200){
             // toast.success('Welcome to Message Express '+ current_user.firstName);
             // toast.success('Your Socket ID is '+ response.data.socket_id);
@@ -68,7 +70,7 @@ const Chat = () => {
           }
         })
         .catch((error) => {
-          console.log(error);
+          // console.log(error);
           localStorage.clear();
           history('/');
           toast.error('Error updating socket id');
@@ -77,24 +79,31 @@ const Chat = () => {
         const allUsers = await axios.get('http://localhost:3001/v10/user/all')
         .then((response) => {
             setContacts(response.data);
-            console.log(response.data);
+            // console.log(response.data);
         })
   
       socket.on("welcome", (s) => {
-        console.log(s)
+        // console.log(s)
       });
   
       socket.on("receive", (entry) => {
-        console.log("received");
-        console.log(entry);
+        // console.log("received");
+        // console.log(entry);
         const newarray = JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m'];
         newarray.push(entry);
         const user = JSON.parse(localStorage.getItem('user'));
         user.messages = JSON.stringify({"m": newarray});
-        console.log(JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m']);
+        // console.log(JSON.parse(JSON.parse(localStorage.getItem('user')).messages)['m']);
         localStorage.setItem('user', JSON.stringify(user));
         setTrigger(prev => prev + 1);
-        receiveSound.play();
+        try{
+          receiveSound.play();
+        }
+        catch(err){
+          // console.log(err);
+        }
+        // cc.current.style.color = 'blue';
+        // cc.current.style.fontWeight = 'bold';
         
         
       });
@@ -114,27 +123,12 @@ const Chat = () => {
             <div className='container border border-dark mt-5'>
 
                 <div className='row leftPanel'>
+
+
+                  
                     <div className='col-md-3 border border-dark clist'>
-                    {/* <IconButton
-            aria-label="Menu" color="inherit" onClick={()=> setDrawerOpen(true)}
-            ><MenuIcon/></IconButton>
 
-                    <Drawer anchor="right" open={drawerOpen} onClose = {() => setDrawerOpen(false)}>
-            <List component= 'nav'>
-
-            {
-                          contacts.map((contact) => {
-
-                            if(id != contact.id){
-                            return <><ListItem className='row contact' onClick={() => updateChatZone(contact)}>{contact.firstName + ' ' + contact.lastName}</ListItem></>
-}})
-                        }
-                
-            </List>
-        
-        </Drawer> */}
-
-{
+                {
                           contacts.map((contact) => {
 
                             if(id != contact.id){

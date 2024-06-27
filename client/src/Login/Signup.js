@@ -31,7 +31,7 @@ const Signup = () => {
 
       }
   
-      axios.post('http://localhost:3001/v10/user/self', newuser).then((data) => {
+      axios.post("https://message-express-backend.onrender.com/v10/user/self", newuser).then((data) => {
 
         console.log(data);
   
@@ -136,6 +136,8 @@ const Signup = () => {
                 Register
               </Button> : <CircularProgress color='secondary'/>
             }
+
+          <div style={{textAlign:'center'}}>Already have an account? <a href="/">Login</a></div>
           </Box>
         </Box>
       </Container>

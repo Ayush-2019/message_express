@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, TextField, Container, Typography, Box } from '@mui/material';
+import { Button, TextField, Container, Typography, Box, CircularProgress } from '@mui/material';
 import axios from 'axios';
 import { Buffer } from 'buffer';
 import { useNavigate } from 'react-router-dom';
@@ -10,13 +10,15 @@ const Login = () => {
   const history = useNavigate();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async(event) => {
     event.preventDefault();
 
+    setLoading(true);
     const token = Buffer.from(`${username}:${password}`, 'utf-8').toString('base64');
 
-    const user = await axios.get('http://localhost:3001/v10/user/self', {
+    const user = await axios.get("https://message-express-backend.onrender.com/v10/user/self", {
         headers: {
             'Authorization': `Basic ${token}`
         }
@@ -32,6 +34,7 @@ const Login = () => {
     })
     .catch((error) => {
       toast.error('Invalid Credentials');
+      setLoading(false);
     });
 
   };
@@ -85,14 +88,18 @@ const Login = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <Button
+
+          {
+            !loading ?           <Button
             onClick={handleSubmit}
             fullWidth
             variant="contained"
             sx={{ mt: 3, mb: 2 }}
           >
             Login
-          </Button>
+          </Button> : <CircularProgress/>
+          }
+
         </Box>
       </Box>
     </Container>

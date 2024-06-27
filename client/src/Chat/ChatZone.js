@@ -1,4 +1,4 @@
-import React, {forwardRef, useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import { Button } from 'react-bootstrap';
 import WelcomeScreen from './WelcomeScreen';
 
